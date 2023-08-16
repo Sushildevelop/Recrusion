@@ -11,15 +11,22 @@ Base Case: This is the simplest scenario where the function does not make a recu
 Recursive Case: In this part of the function, you define how the problem is reduced towards the base case. 
                You break down the problem into smaller sub-problems, often of the same form as the original problem.
                
- recursive_function(parameters){
-    if base_case_condition{
+ recursive_function(parameters)
+ {
+    if base_case_condition
+    {
         # Base case: stop recursion and return a value
         return base_case_value
         }
-    else{        # Recursive case: break down the problem and call the function recursively
+    else{      
+    # Recursive case: break down the problem and call the function recursively
+    
         smaller_problem = ...  # Reduce the problem
+        
         result = recursive_function(smaller_problem)
+        
         # Manipulate the result if needed
+        
         return result
         }
         }
