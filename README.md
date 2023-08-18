@@ -1,4 +1,4 @@
-# Recrusion
+# Recursion
 Recursion is a fundamental programming concept in which a function calls itself in order to solve a problem. 
 It's a powerful technique that allows you to break down complex problems into simpler, self-contained instances of the same problem. 
 Recursion is commonly used in various algorithms and data structures.
